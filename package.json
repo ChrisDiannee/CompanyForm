@@ -4,7 +4,8 @@
   "description": "Log-in &amp; Sign-Up Form",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,6 @@
   "homepage": "https://github.com/ChrisDiannee/CompanyForm#readme",
   "dependencies": {
     "express": "^4.15.3"
-  }
+  },
+  "devDependencies": {}
 }
