@@ -1,0 +1,210 @@
+<html>
+   <head>
+      <title>The Materialize Form Example</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">      
+	  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> 
+   </head>
+   <body class="container">   
+	<h1>
+				<p type="button" id="button" class="btn btn-primary btn-lg btn-block login-button">COMPANY FORM</p>
+	</h1>
+   <div class="container">
+      <div class="row">
+         <form class="col s12" >
+
+         	<h5 align="center">LOG IN </h5>
+
+
+
+            <div class="row">
+
+               <div class="input-field col s6">
+                  <i class="material-icons prefix" >account_circle</i>
+                  <input  id="name" type="text" class="active validate" required>
+                  <label for="name">Username/Email</label>
+               </div>
+               <div class="input-field col s6">  
+               		<i class="material-icons prefix" >lock</i>    
+                  <label for="password">Password</label>
+                  <input id="password" type="password"  class="validate" required>  
+               </div>
+            </div> 
+			    <div class="form-group ">
+					<a href="logged.html" type="button" id="button" class="btn btn-primary btn-lg btn-block login-button">Login</a>
+				</div> 
+
+		<br><br><br>
+			<h5 align="center">SIGN IN </h5>
+            
+			  <div class="row">
+			    <form class="col s6">
+			      <div class="row">
+			      	<div align="center">
+			      	<div class="input-field col s6">
+			          <i class="material-icons prefix">business</i>
+			          <input id="icon_prefix" type="text" class="validate">
+			          <label for="icon_prefix">Company Name</label>
+			        </div>
+
+			        <div class="input-field col s6">
+			          <i class="material-icons prefix">supervisor_account</i>
+			          <input id="icon_prefix" type="text" class="validate">
+			          <label for="icon_prefix">Company Position</label>
+			        </div>
+			        </div>
+			        <div class="input-field col s5">
+			          <i class="material-icons prefix">account_circle</i>
+			          <input id="icon_prefix" type="text" class="validate">
+			          <label for="icon_prefix">First Name</label>
+			        </div>
+			        <div class="input-field col s4">
+			          <input id="icon_prefix" type="text" class="validate">
+			          <label for="icon_prefix">Last Name</label>
+			        </div>
+			        <div class="input-field col s3">
+			          <input id="icon_prefix" type="text" class="validate">
+			          <label for="icon_prefix">Middle Name</label>
+			        </div>
+			        <div class="input-field col s12">
+			          <i class="material-icons prefix">perm_identity</i>
+			          <input id="icon_prefix" type="text" class="validate">
+			          <label for="icon_prefix"> User Name</label>
+			        </div>
+			        <div class="input-field col s12">
+			          <i class="material-icons prefix">email</i>
+			          <input id="icon_prefix" type="email" class="validate">
+			          <label for="icon_prefix">Email Address</label>
+			        </div>	
+			        <div class="input-field col s12">
+			          <i class="material-icons prefix">lock</i>
+			          <input id="icon_prefix" type="password" class="validate">
+			          <label for="icon_prefix">Password</label>
+			        </div>
+			        <div class="input-field col s12">
+			          <i class="material-icons prefix">lock</i>
+			          <input id="icon_prefix" type="password" class="validate">
+			          <label for="icon_prefix">Confirm Password</label>
+			        </div>
+			        
+
+
+			       
+
+			        <div class="input-field col s12">
+			          <i class="material-icons prefix">phone</i>
+			          <input id="icon_prefix" type="number" class="validate">
+			          <label for="icon_prefix">Phone</label>
+			        </div>
+			        <div class="input-field col s12">
+			          <i class="material-icons prefix">mode_edit</i>
+			          <input id="icon_prefix" type="text" class="validate">
+			          <label for="icon_prefix">Address</label>
+			        </div>
+			        <div class="input-field col s12">
+			        Birthday<br><br>
+			          <i class="material-icons prefix">today</i>
+			          <input type="date" class="timepicker">
+			        </div>
+             <div class="row">
+               <div class="input-field col s12">
+                   <p>Gender</p>
+                   <p>
+                     <input id="male" type="radio" name="gender" value="male" checked>
+                     <label for="male">Male</label>
+                  </p>
+                  <p>
+                     <input id="female" type="radio" name="gender" value="female" checked>
+                     <label for="female">Female</label>
+                  </p>
+                  <p>
+                     <input id="dontknow1" type="radio" name="gender" value="female" >                  
+                     <label for="dontknow1">Don't know (Disabled)</label>
+                  </p>
+               </div>
+
+
+
+
+            <div class="row">
+
+               <div class="input-field col s12">
+               <p>Status</p>
+			    <p>
+			      <input name="group1" type="radio" id="married" />
+			      <label for="married">Married</label>
+			    </p>
+			    <p>
+			      <input name="group1" type="radio" id="single" />
+			      <label for="single">Single</label>
+			    </p>
+			    <p>
+			      <input class="with-gap" name="group1" type="radio" id="test3"  />
+			      <label for="test3">Others:</label>
+			    </p>
+			    <div class="input-field col s12">
+			    		<p>Please specify your status:</p>
+			          	<input id="icon_prefix" type="text" class="validate">
+			          	<label for="icon_prefix"> </label>
+			    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+			      </div>
+			  </div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="row">
+           
+            </div>			
+            <div class="row">
+			        <div class="input-field col s12">
+			          <i class="material-icons prefix">comment</i>
+			          <input id="icon_prefix" type="text" class="validate">
+			          <label for="icon_prefix">Comment</label>
+            </div>
+
+           
+            </div>   
+            	<div class="form-group ">
+					<a href="register.html"  type="button" id="button" class="btn btn-primary btn-lg btn-block login-button">Register</a>
+				</div> 
+
+         </form>       
+      </div>
+     </div>
+   </body>   
+</html>
