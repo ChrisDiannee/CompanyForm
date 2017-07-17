@@ -10,16 +10,16 @@ app.set('port', (process.env.PORT || 5000));
 app.use(express.static(path.join(__dirname, 'public/')));
 //express routes
 app.get('/', function(req, res){
-  res.sendFile(path.join(__dirname, 'view/FORM.html'));
+  res.sendFile(path.join(__dirname, 'views/FORM.html'));
 });
 app.get('/FORM.html', function(req, res){
-  res.sendFile(path.join(__dirname, 'view/FORM.html'));
+  res.sendFile(path.join(__dirname, 'views/FORM.html'));
 });
 app.get('/logged.html', function(req, res){
-  res.sendFile(path.join(__dirname, 'view/logged.html'));
+  res.sendFile(path.join(__dirname, 'views/logged.html'));
 });
 app.get('/register.html', function(req, res){
-  res.sendFile(path.join(__dirname, 'view/register.html'));
+  res.sendFile(path.join(__dirname, 'views/register.html'));
 });
 
 
